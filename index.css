@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: rgb(52, 52, 105);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.team_name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+.score_box {
+    margin-top: 10px;
+    background-color: #080001;
+    margin-top: -40px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.score {
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    line-height: 127px;
+}
+
+.button_box {
+    text-align: center;
+    margin-top: 26px;
+    display: flex;
+    gap: 9px;
+}
+
+.score_btn {
+    stroke: #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+}
+
+.NG_btn {
+    stroke: #9AABD8;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #9AABD8;
+    height: 60px;
+    width: 80px;
+    font-size: 19px;
+    font-family: 'Cursed Timer ULiL', sans-serif; 
+}
+
+.newGameContainer {
+    text-align: center;
+    margin-top: 50px;
+}

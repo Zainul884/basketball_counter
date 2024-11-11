@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3 class="team_name">HOME</h3>
+                <div class="score_box">
+                    <h1 class="score" id="scoreJS">0</h1>
+                </div>
+                <div class="button_box">
+                    <button  id="score_btn_js_1" class="score_btn" onclick="add1_HOME()">+1</button>
+                    <button  id="score_btn_js_1" class="score_btn" onclick="add2_HOME()">+2</button>
+                    <button  id="score_btn_js_1" class="score_btn" onclick="add3_HOME()">+3</button>
+                </div>
+
+            </div>
+            <div>
+                <h3 class="team_name">GUEST</h3>
+                <div class="score_box">
+                    <h1 class="score" id="scoreJS_guest">0</h1>
+                </div>
+                <div class="button_box">
+                    <button  id="score_btn_js_1" class="score_btn" onclick="add1_GUEST()">+1</button>
+                    <button  id="score_btn_js_1" class="score_btn" onclick="add2_GUEST()">+2</button>
+                    <button  id="score_btn_js_1" class="score_btn" onclick="add3_GUEST()">+3</button>
+                </div>
+            </div>
+        </div>
+        <div class="newGameContainer">
+            <button onclick="newGame()" class="NG_btn">New Game</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
